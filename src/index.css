@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+body {
+  background-color: #95b9c9;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  display: flex;
+  background-color: #fafafa;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: black;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 30px;
+  font-size: 20px;
+}
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.product input {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+.product button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+.product button:active {
+  transform: scale(0.9);
+  color: green;
+}
+.food-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0px 100px;
+}
+.food {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #9d9a9a;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+}
+.food img {
+  width: 280px;
+  height: 180px;
+  border-radius: 10px;
+}
+.food p {
+  font-size: 20px;
+}
+.pagination {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
